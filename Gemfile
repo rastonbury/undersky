@@ -1,17 +1,17 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.18'
+gem 'rails'
 
-gem 'instagram', '0.8.5'
-gem 'twitter-bootstrap-rails', '~> 2.2'
-gem 'jquery-rails', '~> 2.1'
-gem 'redis-rails', '~> 3.2'
+gem 'instagram'
+gem 'twitter-bootstrap-rails'
+gem 'jquery-rails'
+gem 'redis-rails'
 
 group :assets do
-  gem 'less-rails', '~> 2.2'
-  gem 'therubyracer', '~> 0.11'
-  gem 'coffee-rails', '~> 3.2'
-  gem 'uglifier', '~> 1.3'
+  gem 'less-rails'
+  gem 'therubyracer'
+  gem 'coffee-rails'
+  gem 'uglifier'
 end
 
 group :development, :test do
